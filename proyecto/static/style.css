@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #afe0e6;
+    padding: 20px;
+    background-image: url(fondo.png);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.section {
+    background: #231887b9;
+    border: 1px solid #88bfd6c9;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #88bfd6c9;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.form-card {
+    background: #19499cba;
+    border: 1px solid #88bfd6c9;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.form-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    padding: 6px 8px;
+    border: 1px solid #88bfd6c9;
+    width: 250px;
+}
+
+.form-buttons {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+button {
+    background: #057bb1;
+    color: white;
+    border: 1px solid #88bfd6;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 0.9rem;
+    border-radius: 30px;   
+}
+
+button:hover {
+    background: #0b5f86;
+}
+
+.cancel-btn {
+    background: #516b83;
+}
+
+.cancel-btn:hover {
+    background: #364d5e;
+}
+
+.edit-btn {
+    background: #1f8f75;
+    margin-right: 5px;
+}
+
+.edit-btn:hover {
+    background: #1d705d;
+}
+
+.delete-btn {
+    background: #730baf;
+}
+
+.delete-btn:hover {
+    background: #4e0b75;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #88bfd6c9;
+}
+
+th, td {
+    border: 1px solid #88bfd6c9;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+th {
+    background: #231887eb;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background: #207dacd7;
+}
+
+tr:nth-child(odd) {
+    background: #19499cdd;
+}
